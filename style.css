@@ -1,0 +1,187 @@
+body{
+    margin: 0;
+}
+.glb-msg{
+    background: red;
+    padding: 10px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.glb-msg > div{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.nav-bar{
+    background: blue;
+    padding: 10px;
+
+}
+.nav-bar > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.nav-items{
+     list-style-type: none;
+     display: flex;   
+}
+
+.nav-items > li{
+    margin-left: 1rem;
+}
+
+.nav-items li:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+
+.img{
+    background-image: url(./images/sunrise.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero{
+    width: 40%;
+    background:black; 
+    opacity: 0.5;
+    padding: 1rem;
+    border-radius: 10px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+/* main content area */
+.main{
+    display: flex;
+    gap: 1rem;
+}
+
+.main-content{
+    width: 70%;
+}
+
+
+.main article{
+    display: flex;
+    margin-bottom: 2rem;
+    border: 1px solid grey;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: -5px 5px 15px 5px silver;
+    margin-right: 20px;
+
+}
+
+.art-img{
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+.title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.btn-container{
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* reusable button */
+.btn{
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-container button{
+    padding: 5px 20px;
+}
+
+/* aside */
+.side-links{
+   width: 30%;
+}
+
+.country{
+    background: rgba(162, 246, 162, 0.689);
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+}
+
+.year{
+    background: rgba(242, 234, 9, 0.382);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+/* Recommendation section  */
+.recommendation{
+    background-color: rgba(0, 128, 0, 0.534);
+    padding: 4rem 0;
+}
+.card-list{
+ display: flex;
+ flex-wrap: wrap;
+ gap: 2rem;
+ justify-content: space-around;
+}
+
+.card{
+    width: 300px;
+    /* overflow: hidden; */
+    border-radius: 5px;
+    background: white;
+    box-shadow: -5px 10px 10px 5px rgba(0, 0, 0, .3);
+    padding-bottom: 1rem;
+    flex-grow: 1;
+}
+
+.card img {
+    border-radius: 5px 5px 0 0;
+}
+
+.card button{
+    width: 100%;
+    padding: 10px 0;
+    box-shadow: -5px 10px 10px 5px rgba(255, 0, 0, 0.286);
+    border-radius: 10px;
+}
+
+/* subscription */
+
+.subscription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+
+/* footer */
+.footer{
+    min-height: 100px;
+    background: #000;
+    color: white;
+    padding: 3rem;
+    margin-top: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
