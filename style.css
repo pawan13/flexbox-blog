@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     margin: 0;
 }
@@ -205,6 +208,12 @@ body{
     .main-content{
         width: 100%;
     }
+
+    .title,
+    .art-img{
+        max-width: 100%;
+        margin-bottom: 1rem;
+    }
     .side-links{
         width: 100%;
         gap: 1rem;
@@ -219,6 +228,10 @@ body{
     .year{
         width: 50%;
     }
+    .footer{
+        min-height: 50px;
+        padding: 1rem;
+    }
  }
  
  /* mobiles */
@@ -226,36 +239,17 @@ body{
     .glb-msg{
         display: none;
     }
-    .main{
-        display: flex;
-        flex-direction: column;
-    }
-    
+  
     .post-article{
         width: 100%;
         display: flex;
         flex-direction: column;
         padding: 1rem;  
     }
-   
-
-    .title,
-    .art-img{
-        max-width: 100%;
-        margin-bottom: 1rem;
-    }
-    
-    
-    .side-links{
-        width: 100%;
-        gap: 1rem;
+   .side-links{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        margin-bottom: 2rem;
-    }
-    .country{
-        margin-bottom: 0;
+        
     }
     .country,
     .year{
@@ -265,10 +259,6 @@ body{
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
-    }
-
-    .footer{
-        min-height: 50px;
     }
 
  }
